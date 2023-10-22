@@ -54,8 +54,8 @@ section {
 
 /* Style the footer */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: orange; /* Change the background color to orange */
+    color: black; /* Change the text color to black */
     text-align: center;
     padding: 10px;
 }
