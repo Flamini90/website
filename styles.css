@@ -28,22 +28,22 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #333;
+    color: orange;
     font-weight: bold;
 }
 
 nav li::before {
-    content: "";
-    width: 25px; /* Adjust the button width as needed */
-    height: 25px; /* Adjust the button height as needed */
+    content: "Homepage Amazon";
     display: inline-block;
+    width: 30px; /* Adjust the button width as needed */
+    height: 30px; /* Adjust the button height as needed */
     background-color: orange; /* Background color for the round button */
     border-radius: 50%; /* Make it round */
     position: absolute;
-    left: -30px; /* Adjust the position for spacing */
+    left: -40px; /* Adjust the position for spacing */
     top: 50%; /* Center vertically */
     transform: translateY(-50%);
-    line-height: 25px; /* Center text vertically */
+    line-height: 30px; /* Center text vertically */
     text-align: center;
     color: black; /* Text color */
 }
@@ -67,7 +67,7 @@ section {
 .product img {
     max-width: 250px;
     max-height: 250px;
-    border-radius: 50%;
+    border-radius: 10%;
 }
 
 /* Style the footer */
