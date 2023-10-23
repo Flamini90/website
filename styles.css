@@ -67,14 +67,20 @@ nav a:hover {
 }
 
 /* Style the "Homepage Amazon" button */
-.button-link::before {
-    content: "Homepage Amazon";
+.button-link {
+    position: relative;
     background-color: orange;
     color: black;
-    border-radius: 20px;
     padding: 5px 20px; /* Adjust the padding to fit the button size */
+    border-radius: 50px; /* Make it round */
+}
+
+.button-link a {
+    color: black;
+    text-align: center;
+    display: block;
     position: absolute;
-    left: -20px; /* Adjust the position for spacing */
-    top: 50%; /* Center vertically */
-    transform: translateY(-50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
