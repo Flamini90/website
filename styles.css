@@ -71,7 +71,7 @@ nav a:hover {
     position: relative;
     background-color: orange;
     color: black;
-    padding: 20px 40px; /* Adjust the padding to fit the button size */
+    padding: 30px 50px; /* Adjust the padding to fit the button size */
     border-radius: 50px; /* Make it round */
 }
 
