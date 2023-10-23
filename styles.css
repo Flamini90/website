@@ -71,7 +71,7 @@ nav a:hover {
     position: relative;
     background-color: orange;
     color: black;
-    padding: 5px 20px; /* Adjust the padding to fit the button size */
+    padding: 10px 30px; /* Adjust the padding to fit the button size */
     border-radius: 50px; /* Make it round */
 }
 
@@ -83,4 +83,8 @@ nav a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.button-link a:hover {
+    color: black;
 }
