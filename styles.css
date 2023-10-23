@@ -135,7 +135,7 @@ a:visited {
 }
 
 input:checked + .slider {
-    background-color: #2196F3;
+    background-color: #333; /* Change the background to dark gray */
 }
 
 input:focus + .slider {
@@ -146,10 +146,11 @@ input:checked + .slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
+    background-color: white; /* Change the slider button to white */
 }
 
-/* Add dark mode styles here */
+/* Add dark mode styles */
 body.dark-mode {
     background-color: #333;
-    color: #fff;
+    color: white;
 }
