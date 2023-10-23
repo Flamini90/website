@@ -161,7 +161,7 @@ body.dark-mode {
 
 body.dark-mode #products {
     background-color: #222; /* Change the background to a darker color in dark mode */
-    color: black;
+    color: white;
 }
 
 /* Add dark mode styles for product div, about section, and contact section */
