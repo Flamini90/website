@@ -27,7 +27,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: orange;
+    color: white;
     font-weight: bold;
 }
 
@@ -53,6 +53,9 @@ section {
     border-radius: 10%;
 }
 
+.product h3:hover {
+    color: orange; /* Change the text color to orange on hover */
+}
 /* Style the footer */
 footer {
     background-color: orange; /* Change the background color to orange */
