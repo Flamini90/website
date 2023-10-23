@@ -51,6 +51,11 @@ section#products h3 {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
+.product a {
+    text-decoration: none !important;
+    border-bottom: none !important;
+}
+
 .product img {
     max-width: 250px;
     max-height: 250px;
