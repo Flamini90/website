@@ -12,6 +12,7 @@ header {
     color: #fff;
     text-align: center;
     padding: 20px;
+    font-family: cursive;
 }
 
 nav ul {
@@ -29,10 +30,6 @@ nav a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-}
-
-h1 {
-    font-family: cursive;
 }
 /* Style the main sections */
 section {
