@@ -100,10 +100,6 @@ nav a:hover {
     color: orange; 
 }
 
-a:visited {
-    color: orange;
-}
-
 /* Add styles for the dark mode switch */
 .switch {
     position: absolute;
