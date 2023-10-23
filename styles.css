@@ -71,20 +71,14 @@ nav a:hover {
     position: relative;
     background-color: orange;
     color: black;
-    padding: 30px 50px; /* Adjust the padding to fit the button size */
+    padding: 10px 30px; /* Adjust the padding to make the button larger */
     border-radius: 50px; /* Make it round */
-}
-
-.button-link a {
-    color: black;
+    display: inline-block;
     text-align: center;
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    transition: background-color 0.3s; /* Add a smooth transition for the background color */
 }
 
-.button-link a:hover {
-    color: black;
+.button-link:hover {
+    background-color: black; /* Change the background color to black on hover */
+    color: orange; /* Change the text color to orange on hover */
 }
