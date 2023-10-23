@@ -22,29 +22,13 @@ nav ul {
 nav li {
     display: inline;
     margin: 0 20px;
-    position:relative;
+    position: relative;
 }
 
 nav a {
     text-decoration: none;
     color: orange;
     font-weight: bold;
-}
-
-.button-link::before {
-    content: "Homepage Amazon";
-    display: inline-block;
-    width: 30px; /* Adjust the button width as needed */
-    height: 30px; /* Adjust the button height as needed */
-    background-color: orange; /* Background color for the round button */
-    border-radius: 50%; /* Make it round */
-    position: absolute;
-    left: -40px; /* Adjust the position for spacing */
-    top: 50%; /* Center vertically */
-    transform: translateY(-50%);
-    line-height: 30px; /* Center text vertically */
-    text-align: center;
-    color: black; /* Text color */
 }
 
 /* Style the main sections */
@@ -80,4 +64,17 @@ footer {
 /* Add hover effect to links in the navigation menu */
 nav a:hover {
     color: orange;
+}
+
+/* Style the "Homepage Amazon" button */
+.button-link::before {
+    content: "Homepage Amazon";
+    background-color: orange;
+    color: black;
+    border-radius: 20px;
+    padding: 5px 20px; /* Adjust the padding to fit the button size */
+    position: absolute;
+    left: -20px; /* Adjust the position for spacing */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%);
 }
