@@ -39,6 +39,10 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+section#products h3 {
+    color: inherit;
+}
+
 /* Style the product boxes */
 .product {
     margin: 20px 0;
@@ -153,4 +157,9 @@ input:checked + .slider:before {
 body.dark-mode {
     background-color: #333;
     color: white;
+}
+
+body.dark-mode #products {
+    background-color: #222; /* Change the background to a darker color in dark mode */
+    color: black;
 }
