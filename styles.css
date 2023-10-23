@@ -173,3 +173,7 @@ body.dark-mode #contact {
     background-color: #222; /* Change the background to a darker color in dark mode */
     color: white; /* Set the text color to white in dark mode */
 }
+
+#contact a:hover {
+    color: yellow;
+}
