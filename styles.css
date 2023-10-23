@@ -54,7 +54,7 @@ section {
 }
 
 .product h3 {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .product h3:hover {
@@ -88,4 +88,8 @@ nav a:hover {
 .button-link:hover {
     background-color: black; 
     color: orange; 
+}
+
+a:visited {
+    color: orange;
 }
