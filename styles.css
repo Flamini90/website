@@ -53,13 +53,17 @@ section {
     border-radius: 10%;
 }
 
+.product h3 {
+    text-decoration: none;
+}
+
 .product h3:hover {
-    color: orange; /* Change the text color to orange on hover */
+    color: orange; 
 }
 /* Style the footer */
 footer {
-    background-color: orange; /* Change the background color to orange */
-    color: black; /* Change the text color to black */
+    background-color: orange; 
+    color: black; 
     text-align: center;
     padding: 10px;
 }
@@ -74,14 +78,14 @@ nav a:hover {
     position: relative;
     background-color: orange;
     color: black;
-    padding: 10px 30px; /* Adjust the padding to make the button larger */
-    border-radius: 50px; /* Make it round */
+    padding: 10px 30px; 
+    border-radius: 50px; 
     display: inline-block;
     text-align: center;
-    transition: background-color 0.3s; /* Add a smooth transition for the background color */
+    transition: background-color 0.3s; 
 }
 
 .button-link:hover {
-    background-color: black; /* Change the background color to black on hover */
-    color: orange; /* Change the text color to orange on hover */
+    background-color: black; 
+    color: orange; 
 }
