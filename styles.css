@@ -59,6 +59,7 @@ section#products h3 {
 
 .product h3 {
     text-decoration: none !important;
+    border-bottom: none !important;
 }
 
 .product h3:hover {
@@ -161,7 +162,7 @@ body.dark-mode {
 
 body.dark-mode #products {
     background-color: #222; /* Change the background to a darker color in dark mode */
-    color: white;
+    color: white !important;
 }
 
 /* Add dark mode styles for product div, about section, and contact section */
