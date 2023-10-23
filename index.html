@@ -9,7 +9,11 @@
     <header>
         <h1>Best Amazon Offers</h1>
     </header>
-
+    <!-- Dark mode switch with a slider -->
+    <label class="switch">
+        <input type="checkbox" id="dark-mode-toggle">
+        <span class="slider"></span>
+    </label>
     <nav>
         <ul>
             <li class="button-link"><a href="https://amzn.to/3tLHiDV">Homepage Amazon</a></li>
@@ -50,5 +54,25 @@
     <footer>
         <p>&copy; 2023 Flamini90 ©</p>
     </footer>
+    
+    <script>
+    const darkModeToggle = document.getElementById('dark-mode-toggle');
+    const body = document.body;
+
+    // Check the user's preference from local storage
+    const isDarkMode = localStorage.getItem('darkMode') === 'true';
+
+    // Initialize the page with the user's preference
+    if (isDarkMode) {
+        body.classList.add('dark-mode');
+        darkModeToggle.checked = true;
+    }
+
+    // Event listener to toggle dark mode
+    darkModeToggle.addEventListener('change', () => {
+        body.classList.toggle('dark-mode');
+        localStorage.setItem('darkMode', darkModeToggle.checked);
+    });
+</script>
 </body>
 </html>
