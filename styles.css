@@ -80,5 +80,5 @@ footer {
 
 /* Add hover effect to links in the navigation menu */
 nav a:hover {
-    color: #555;
+    color: orange;
 }
