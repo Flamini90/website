@@ -62,7 +62,7 @@ section#products h3 {
 }
 
 .product h3:hover {
-    color: orange; 
+    color: orange !important; 
 }
 /* Style the footer */
 footer {
@@ -162,4 +162,12 @@ body.dark-mode {
 body.dark-mode #products {
     background-color: #222; /* Change the background to a darker color in dark mode */
     color: black;
+}
+
+/* Add dark mode styles for product div, about section, and contact section */
+body.dark-mode .product,
+body.dark-mode #about,
+body.dark-mode #contact {
+    background-color: #222; /* Change the background to a darker color in dark mode */
+    color: white; /* Set the text color to white in dark mode */
 }
